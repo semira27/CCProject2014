@@ -57,12 +57,72 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\CSS\camera.css" />
+    <Content Include="Content\CSS\grid.css" />
+    <Content Include="Content\CSS\ie.css" />
+    <Content Include="Content\CSS\reset.css" />
+    <Content Include="Content\CSS\style.css" />
+    <Content Include="Content\images\blank.gif" />
+    <Content Include="Content\images\blog-img1.jpg" />
+    <Content Include="Content\images\blog-img2.jpg" />
+    <Content Include="Content\images\blog-img3.jpg" />
+    <Content Include="Content\images\blog-img4.jpg" />
+    <Content Include="Content\images\blog-img5.jpg" />
+    <Content Include="Content\images\blog-img6.jpg" />
+    <Content Include="Content\images\body-bg.gif" />
+    <Content Include="Content\images\border-bg.gif" />
+    <Content Include="Content\images\camera-loader.gif" />
+    <Content Include="Content\images\camera_skins.png" />
+    <Content Include="Content\images\client1.png" />
+    <Content Include="Content\images\client2.png" />
+    <Content Include="Content\images\client3.png" />
+    <Content Include="Content\images\client4.png" />
+    <Content Include="Content\images\comment-bg.gif" />
+    <Content Include="Content\images\facebook-icon.png" />
+    <Content Include="Content\images\form-button.gif" />
+    <Content Include="Content\images\header-bg.gif" />
+    <Content Include="Content\images\image1.jpg" />
+    <Content Include="Content\images\image2.jpg" />
+    <Content Include="Content\images\image3.jpg" />
+    <Content Include="Content\images\li-bg.gif" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\next-btn.png" />
+    <Content Include="Content\images\next_bg.gif" />
+    <Content Include="Content\images\prev-btn.png" />
+    <Content Include="Content\images\prev_bg.gif" />
+    <Content Include="Content\images\slide1.jpg" />
+    <Content Include="Content\images\slide2.jpg" />
+    <Content Include="Content\images\slide3.jpg" />
+    <Content Include="Content\images\testimonials_bg.png" />
+    <Content Include="Content\images\twitter-icon.png" />
+    <Content Include="Content\images\works1.jpg" />
+    <Content Include="Content\images\works2.jpg" />
+    <Content Include="Content\images\works3.jpg" />
+    <Content Include="Content\images\works4.jpg" />
+    <Content Include="Content\images\works5.jpg" />
+    <Content Include="Content\images\works6.jpg" />
+    <Content Include="Content\js\camera.js" />
+    <Content Include="Content\js\html5shiv.js" />
+    <Content Include="Content\js\jcarousellite_1.0.1.js" />
+    <Content Include="Content\js\jquery-migrate-1.1.1.js" />
+    <Content Include="Content\js\jquery.easing.1.3.js" />
+    <Content Include="Content\js\jquery.js" />
+    <Content Include="Content\js\PIE.htc" />
+    <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\js\PIE.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
