@@ -24,6 +24,18 @@
         });
     });
   </script>
+
+    <script>
+    $(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+    </script>
+
+    <p> HAAALO NESTANI </p>
+
+
   <!--[if lt IE 8]><div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div><![endif]-->
   	<!--[if lt IE 9]>
 	   	<script src="Content/js/html5shiv.js"></script>
