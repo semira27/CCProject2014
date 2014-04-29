@@ -23,7 +23,8 @@ body {
 .container_12 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
+	width: 970px;
+
 }
 
 /* Grid >> Global
@@ -40,13 +41,21 @@ body {
 .grid_8,
 .grid_9,
 .grid_10,
-.grid_11,
-.grid_12 {
+.grid_11 {
 	display:inline;
 	float: left;
 	position: relative;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.grid_11 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+    width: 970px;
 }
 
 
@@ -127,7 +136,11 @@ body {
 }
 
 .container_12 .grid_12 {
-	width:940px;
+	width:970px;
+    /*height: 100px;*/
+    margin-top:20px;
+    
+
 }
 
 
@@ -372,3 +385,4 @@ body {
 .clearfix {
   zoom: 1;
 }
+

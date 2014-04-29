@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="Content/css/grid.css" type="text/css" media="screen">
 <link rel="stylesheet" href="Content/css/camera.css" type="text/css" media="screen">
 <link rel="stylesheet" href="Content/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="Content/css/id.css" type="text/css" media="screen">
 <script type="text/javascript" src="Content/js/jquery.js"></script>
 <script type="text/javascript" src="Content/js/jquery-migrate-1.1.1.js"></script>
 <script type="text/javascript" src="Content/js/camera.js"></script>
@@ -61,14 +62,15 @@
 				<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
 		      <div data-src="Content/images/slide1.jpg">
 		          <div class="camera_caption fadeIn">
-		              <h2>Our Recent Projects</h2>
-		              	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		              <h2>Web sajt u samo par klikova</h2>
+		              	Zelite jednostavan,profesionalan web sajt u samo par minuta. Mi smo ono što ste čekali. Uz naš servis kreirajte
+                        web sajt po najpovoljnijim cijenama.
 		              	<p><a href="#" class="button">More Info</a></p>
 		          </div>
 		      </div>
 		      <div data-src="Content/images/slide2.jpg">
 		          <div class="camera_caption fadeIn">
-		              <h2>biz.Power</h2>
+		              <h2>Najpovoljniji hostinzi</h2>
 		              	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat uis aute irure dolor reprehender.
 		              	<p><a href="#" class="button">More Info</a></p>
 		          </div>
@@ -86,15 +88,18 @@
 		</div>
 		<div class="inner">
 			<div class="container_12">
-				<div class="wrapper">
+				<div class="wrapperInfoBlock">
 					<div class="grid_12">
-						<div class="block">
 							<div class="info-block">
-								<a href="http://blog.templatemonster.com/free-website-templates/" rel="nofollow" class="link">Click here</a> for more info about this free website template created by Template 
-	Monster. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+
+                                    <input id="emailAddress" class="registracija" type="text" placeholder="Email Address" autocomplete="off" maxlength="80" name="emailAddress"></input>
+
+                                    <input id="password" class="registracija" type="password" placeholder="Password" autocomplete="off" maxlength="50" name="password"></input>
+
+                                    <a href="#" id="btnKreiraj" class="button" rel="nofollow">KREIRAJ WEB SAJT</a>
+
 							</div>
-							<a href="#" class="button" rel="nofollow">Click here!</a>
-						</div>
+						
 					</div>
 				</div>
 				<div class="wrapper">
@@ -119,7 +124,7 @@
 				</div>
 				<div class="wrapper">
 					<div class="grid_12">
-						<h2 class="h-pad">Our Clients</h2>
+						<h2 class="h-pad">Naši klijenti</h2>
 						<ul class="clients-list">
 							<li><a href="#"><img src="Content/images/client1.png" alt=""></a></li>
 							<li><a href="#"><img src="Content/images/client2.png" alt=""></a></li>
@@ -142,7 +147,6 @@
 						My Social:<a href="#"><img src="Content/images/facebook-icon.png" alt=""></a><a href="#"><img src="Content/images/twitter-icon.png" alt=""></a>
 					</div>
 				</div>
-				<div class="grid_12">Popular free website templates <a href="http://www.websitetemplatesonline.com" target="_blank">at www.WebsiteTemplatesOnline.com</a>. <a href="http://www.getjoomlatemplatesfree.com/" title="Free Joomla Themes">GetJoomlaTemplatesFreee.com</a> - impressive Joomla templates for websites.</div>
 			</div>
 		</div>
 	</footer>

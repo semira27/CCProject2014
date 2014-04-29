@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Content\CSS\camera.css" />
     <Content Include="Content\CSS\grid.css" />
+    <Content Include="Content\CSS\id.css" />
     <Content Include="Content\CSS\ie.css" />
     <Content Include="Content\CSS\reset.css" />
     <Content Include="Content\CSS\style.css" />

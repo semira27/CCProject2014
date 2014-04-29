@@ -56,6 +56,11 @@ a:hover{
 	width:100%;
 	overflow:hidden;
 }
+
+.wrapperInfoBlock { 
+	width:100%;
+	overflow:hidden;
+}
 /*----- form defaults -----*/
 input, select, textarea { 
 	font-size:1em;
@@ -168,9 +173,12 @@ header{
 	}
 	.info-block {
 		float: left;
-		width: 740px;
+		width: 970px;
 		text-transform: uppercase;
 		font-weight: 400;
+        background-color:#fff;
+        border-radius:5px;
+        padding: 10px 10px 10px 10px;
 	}
 		.link {
 			color: #ee4003;
@@ -472,4 +480,11 @@ footer {
 /*==========================================*/
     
 /* Project specifics =========================================================== */
+
+.registracija
+{
+    width:240px;
+    height:60px;
+    background-color: #F2F7F9;
+}
 /* Pour some CSS below ========================================================= */
