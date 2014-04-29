@@ -40,14 +40,14 @@
 		<div class="container_12">
 			<div class="grid_12">
 				<div class="wrapper">
-					<a href="index.html" class="logo">design.maniacs</a>
+					<a href="Home.aspx" class="logo">design.maniacs</a>
 					<nav>
 						<ul class="menu">
 							<li class="active"><a href="index.html">about</a></li>
-							<li><a href="works.html">works</a></li>
+							<li><a href="ZavrseniProjekti.aspx">works</a></li>
 							<li><a href="clients.html">clients</a></li>
 							<li><a href="blog.html">blog</a></li>
-							<li><a href="contacts.html">contacts</a></li>
+							<li><a href="Kontakt.aspx">contacts</a></li>
 						</ul>
 					</nav>
 				</div>

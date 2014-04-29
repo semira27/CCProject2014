@@ -110,7 +110,11 @@
     <Content Include="Content\js\jquery.js" />
     <Content Include="Content\js\PIE.htc" />
     <Content Include="Home.aspx" />
+    <Content Include="Kontakt.aspx" />
+    <Content Include="KorisnickiProfil.aspx" />
+    <Content Include="ONama.aspx" />
     <Content Include="Web.config" />
+    <Content Include="ZavrseniProjekti.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home.aspx.cs">
@@ -120,7 +124,35 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Kontakt.aspx.cs">
+      <DependentUpon>Kontakt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kontakt.aspx.designer.cs">
+      <DependentUpon>Kontakt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KorisnickiProfil.aspx.cs">
+      <DependentUpon>KorisnickiProfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KorisnickiProfil.aspx.designer.cs">
+      <DependentUpon>KorisnickiProfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ONama.aspx.cs">
+      <DependentUpon>ONama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ONama.aspx.designer.cs">
+      <DependentUpon>ONama.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZavrseniProjekti.aspx.cs">
+      <DependentUpon>ZavrseniProjekti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZavrseniProjekti.aspx.designer.cs">
+      <DependentUpon>ZavrseniProjekti.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\js\PIE.php" />
